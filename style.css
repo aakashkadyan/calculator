@@ -1,0 +1,56 @@
+body{
+
+    margin-top: 140px;
+}
+
+.container {
+    text-align: center; /* Centers the content inside the container */
+}
+  
+  h2 {
+    display: inline-block;  /* Border will wrap the text only */
+    padding: 5px 180px;
+    margin-bottom: 50px;
+    border: 1px solid rgb(0, 0, 0); /* Border around the text */
+    border-radius: 2px;
+    color: white;
+    background-color: rgb(3, 160, 222);
+}
+
+table { 
+    border: 1px solid black; 
+    margin-left: auto; 
+    margin-right: auto; 
+} 
+  
+input[type="button"] { 
+    width: 100%; 
+    padding: 20px 40px; 
+    background-color: rgb(3, 160, 222); 
+    color: white; 
+    font-size: 24px; 
+    font-weight: bold; 
+    border: none; 
+    border-radius: 5px;
+    cursor: pointer; 
+}
+
+input[type="button"]:hover {
+    background-color: rgb(217, 0, 255);
+  }
+
+input[type="button"]:active {
+    color: rgb(217, 0, 255);
+}  
+  
+input[type="text"] { 
+    display: flex;
+    padding: 20px 50px; 
+    font-size: 24px; 
+    font-weight: bold; 
+    width: 125%;
+    margin: auto;
+    border: none; 
+    border-radius: 5px; 
+    border: 2px solid black; 
+}
