@@ -1,14 +1,11 @@
+let numValue = document.querySelectorAll('.mybtn');
+let resultField = document.getElementById('result');
 
-console.log("hello")
-let x = document.querySelectorAll("#mybtn").value
-console.log(x);
+numValue.forEach(element => {
 
-
-// function addition (){}
-// function multiplication (){}
-// function subtraction (){}
-// function division (){}
-// function sqaure (){}
-// function sqaureRoot (){}
-// function modOpt (){}
-// function clear(){}
+    element.addEventListener('click',() =>{
+        console.log(element.value);
+        resultField.value += element.value 
+        
+    });
+});
