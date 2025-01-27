@@ -40,7 +40,8 @@ calculator/
 
 ## Preview 🔍
 
-![Calculator Screenshot](https://via.placeholder.com/600x400?text=Calculator+Preview)
+![Screenshot from 2025-01-27 23-08-45](https://github.com/user-attachments/assets/fe10132e-c708-4a53-9f88-dee89eab188b)
+
 
 ---
 
